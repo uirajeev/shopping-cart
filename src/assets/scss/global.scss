@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "made_evolve_sansregular";
+  src: url("~@/assets/fonts/evolve-sans-regular-webfont.woff2") format("woff2"),
+    url("~@/assets/fonts/evolve-sans-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "made_evolve_sansthin";
+  src: url("~@/assets/fonts/evolve-sans-thin-webfont.woff2") format("woff2"),
+    url("~@/assets/fonts/evolve-sans-thin-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "made_evolve_sansbold";
+  src: url("~@/assets/fonts/evolve-sans-bold-webfont.woff2") format("woff2"),
+    url("~@/assets/fonts/evolve-sans-bold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "made_evolve_sanslight";
+  src: url("~@/assets/fonts/evolve-sans-light-webfont.woff2") format("woff2"),
+    url("~@/assets/fonts/evolve-sans-light-webfont.woff") format("woff");
+}
+body {
+  background: $iceBlue;
+  color: $darkBlue;
+  font-family: "made_evolve_sansregular", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
