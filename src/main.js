@@ -5,11 +5,13 @@ import "./utils/fa-icon.js"; // Font Awesome Icons
 import router from "./router"; // Vue Router
 import store from "./store"; // Vue Store
 
-import BaseButton from "@/components/BaseButton.vue"; //
+// Import  global components
+import BaseButton from "@/components/BaseButton.vue";
 import Ribbon from "@/components/Ribbon.vue";
 import Card from "@/components/Card.vue";
 import Spinner from "@/components/Spinner.vue";
 
+// Register global components
 Vue.component("base-button", BaseButton);
 Vue.component("Ribbon", Ribbon);
 Vue.component("Card", Card);

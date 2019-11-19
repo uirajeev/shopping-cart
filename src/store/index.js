@@ -1,9 +1,12 @@
 import Vue from "vue";
 import Vuex from "vuex";
 
+import createPersistedState from "vuex-persistedstate"; // Persist the state after page hard reload
+
 Vue.use(Vuex);
 
 export default new Vuex.Store({
+  plugins: [createPersistedState()],
   state: {
     products: [],
     cart: [],
